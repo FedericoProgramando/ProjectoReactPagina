@@ -1,0 +1,131 @@
+.customers {
+  position: relative;
+  z-index: 1;
+  margin-top: 20px;
+}
+
+.customers_titulo {
+  text-align: center;
+  margin-top: 3.5vw;
+  font-size: 2.4vw;
+  
+}
+
+.customers_parrafo {
+  text-align: center;
+  margin-top: 1.3vw;
+  
+  font-size: 1.1vw;
+}
+
+.customers_general {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4vw;
+}
+
+.customers_general_conteiner {
+  width: 35vw;
+  border: solid 0.2vw #dddddd;
+  border-radius: 1vw;
+  box-sizing: border-box;
+  margin-right: 0.5vw;
+  margin-left: 0.5vw;
+}
+
+.customers_general_conteiner:hover {
+  border: solid 0.2vw #f53838;
+  box-shadow: 0px 40px 80px -50px rgba(0, 0, 0, 0.41);
+}
+
+.customers_general_info {
+  display: flex;
+  justify-content: space-around;
+  margin: 2.1vw;
+  align-items: center;
+}
+
+.customers_general_info > img {
+  margin-right: 1.4vw;
+  width: 3.5vw;
+  height: 3.5vw;
+  border-radius: 50%;
+}
+
+.customers_general_info h4 {
+  font-family: "Rubik";
+  font-weight: 500;
+  font-size: 1.1vw;
+  color: #0b132a;
+}
+
+.customers_general_info p {
+  font-size: 1.1vw;
+}
+
+.customer_exp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5.4vw;
+}
+
+.customer_exp img {
+  margin-left: 0.8vw;
+  width: 1.1vw;
+}
+
+.customers_general_text {
+  margin: 0.8vw 2.3vw;
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 1.1vw;
+  color: #0b132a;
+}
+
+@media (max-width: 526px) {
+  .customers_general {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .customers_general_conteiner {
+    width: 70%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: solid 0.2vw #dddddd;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .customers_general_conteiner p {
+    font-size: 13px;
+    align-items: center;
+    text-align: center;
+    color: #0b132a;
+  }
+
+  .customers_general_conteiner h4 {
+    font-size: 15px;
+  }
+
+  .customers_general_conteiner img {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+@media (max-width: 426px) {
+  .customers_titulo {
+    font-size: 20px;
+  }
+
+  .customers_parrafo {
+    font-size: 17px;
+  }
+} 

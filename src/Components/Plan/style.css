@@ -1,0 +1,174 @@
+.plan_text {
+    margin-top: 7vw;
+    text-align: center;
+    font-size: 2.3vw;
+  }
+  
+  .plan_main_text {
+    text-align: center;
+    margin-top: 2vw;
+    font-size: 1.2vw;
+  }
+  
+  .plan_main_planes {
+    display: flex;
+    width: 80vw;
+    margin-top: 6vw;
+    margin-left: 11vw;
+    margin-right: 10vw;
+    justify-content: space-around;
+  }
+  
+  .plan_select {
+    display: flex;
+    width: 30vw;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: solid 2px #dddddd;
+    border-radius: 10px;
+    margin-left: 1vw;
+    margin-right: 4vw;
+  }
+  
+  .plan_main_aceptar {
+    margin: 3vw 5vw 13vw;
+  }
+  
+  .box {
+    margin: 8vw 7vw;
+    margin-bottom: 3vw;
+    width: 10vw;
+  }
+  
+  .plan_content {
+    display: flex;
+    align-items: center;
+    font-size: 1.1vw;
+  }
+
+  
+  .plan_content > img {
+    width: 2.3vw;
+  }
+  
+  .plan_button {
+    font-family: "Rubik";
+    width: 12vw;
+    height: 3.4vw;
+    background-color: #fff;
+    font-weight: 700;
+    font-size: 1.2vw;
+    color: #f53838;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 0.2vw solid #f53838;
+    border-radius: 50px;
+    margin-bottom: 4vw;
+    margin-top: 2vw;
+    transition: 0.4s;
+  }
+  
+  .plan_button:hover {
+    background-color: #f53838;
+    color: #fff;
+    box-shadow: 0px 15px 35px rgba(245, 56, 56, 0.35);
+  }
+  
+  .plan_categoria {
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 1.1vw;
+    line-height: 3vw;
+    text-align: center;
+    color: #0b132a;
+  }
+  
+  .plan_precio {
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 3vw;
+    color: #0b132a;
+  }
+  
+  @media (max-width: 769px) {
+    .plan_text {
+      font-size: 16px;
+    }
+  
+    .plan_main_text {
+      font-size: 12px;
+    }
+  
+    .plan_categoria {
+      font-size: 12px;
+    }
+
+    .plan_pricio {
+      font-size: 10px;
+    }
+  }
+  
+  @media (max-width: 426px) {
+    .plan_main_planes {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .plan_select {
+      margin: 20px;
+      margin-bottom: 4vh;
+      width: 80%;
+      margin-left: 0;
+      margin-right: 0;
+      flex-direction: column;
+    }
+  
+    .plan_main_aceptar {
+      margin: 3vw 5vw 3vw;
+    }
+  
+    .box {
+      margin: 4vw 7vw;
+      margin-bottom: 3vw;
+      width: 20vw;
+    }
+  
+    .plan_categoria {
+      font-size: 17px;
+      line-height: 3vw;
+    }
+  
+    .plan_content {
+      font-size: 15px;
+      line-height: 8vw;
+    }
+  
+    .plan_pricio {
+      font-size: 10px;
+    }
+  
+    .plan_button {
+      font-size: 12px;
+      width: 50%;
+      padding: 15px;
+      margin-bottom: 4vh;
+      margin-top: 2vh;
+      text-align: center;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+    }
+  
+    .plan_text {
+      font-size: 18px;
+    }
+  
+    .plan_main-text {
+      font-size: 18px;
+    }
+  }

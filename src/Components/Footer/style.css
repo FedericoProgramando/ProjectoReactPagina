@@ -1,0 +1,79 @@
+footer {
+    display: flex;
+    position: relative;
+    background-color: #f8f8f8;
+    justify-content: space-between;
+    z-index: 0;
+  }
+  
+  .footer_logo {
+    position: relative;
+    margin-top: 13vw;
+    margin-left: 10.5vw;
+    padding-bottom: 7vw;
+    box-sizing: border-box;
+  }
+  
+  .footer_logo span {
+    font-weight: 500; 
+    font-size: 1.1vw;
+  }
+  
+  .footer_logo p {
+    font-size: 1.1vw;
+  }
+  
+  .footer_logo img {
+    width: 11vw;
+    margin-bottom: 1.4vw;
+  }
+  
+  .footer_redes_sociales {
+    display: flex;
+    position: absolute;
+    margin-top: 1.4vw;
+    top: 8.7vw;
+    left: -1.6vw;
+    justify-content: flex-start;
+  }
+  
+  .footer_redes_sociales img {
+    width: 5vw;
+  }
+  
+  .footer_año {
+    color: #afb5c0; 
+    margin-top: 8.5vw;
+  }
+  
+  .footer_product {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12vw;
+    justify-content: flex-start;
+  }
+  
+  .footer_product h4 {
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 1.3vw;
+    color: #0b132a;
+  }
+  
+  .footer_product a {
+    font-family: "Rubik";
+    font-weight: 400;
+    color: #4f5665;
+    font-size: 1.1vw;
+    margin-top: 0.7vw;
+  }
+  
+  .earn_money {
+    margin-right: 10.5vw;
+  }
+
+  
+
+
+
+  
